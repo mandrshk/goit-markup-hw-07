@@ -1,0 +1,168 @@
+.footer-info {
+    background: #2f303a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-container {
+    display: flex;
+    flex-grow: 1;
+    align-items: baseline;
+}
+
+.connect-us {
+    color: var(--secondary-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.connect-us:hover,
+.connect-us:focus {
+    color: var(--primary-white-color);
+}
+
+.email-ws,
+.phonenum-ws {
+    font-size: 14px;
+    line-height: 1.1;
+    color: var(--secondary-color);
+    letter-spacing: 0.02em;
+}
+
+.contacts-footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.our-address {
+    color: var(--primary-white-color);
+}
+
+.footer-list .contacts {
+    margin-top: 9px;
+}
+
+.address-footer {
+    margin-top: 20px;
+    font-style: normal;
+}
+
+.footer-info .logo-ws {
+    color: var(--primary-white-color);
+}
+
+.follow-us {
+    margin-left: 70px;
+}
+
+.followus {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--primary-white-color);
+    margin-bottom: 20px;
+}
+
+.follow-us .socials-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.follow-us .socials-item {
+    margin-right: 10px;
+}
+
+.follow-us .socials-item:last-child {
+    margin-right: 0;
+}
+
+.follow-us .socials-link {
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 250ms;
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.follow-us .socials-icon {
+    fill: var(--primary-white-color);
+    transition-duration: 250ms;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.follow-us .socials-link:hover,
+.follow-us .socials-link:focus {
+    background: var(--accent-color);
+}
+
+.follow-us .socials-link:hover .socials-icon,
+.follow-us .socials-link:focus .socials-icon {
+    fill: var(--primary-white-color);
+}
+
+.footer-form {
+    min-width: 570px;
+    min-height: 86px;
+    margin-left: 93px;
+}
+
+.type-email {
+    margin-top: 20px;
+    margin-right: 12px;
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 15px 16px;
+    background: #2f303a;
+}
+
+.follow-label {
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--primary-white-color);
+}
+
+.follow-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    padding: 10px 29px;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: transparent;
+    text-align: left;
+}
+
+.following-text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+
+    color: var(--primary-white-color);
+}
+
+.send-icon {
+    fill: var(--primary-white-color);
+    margin-left: 10px;
+}

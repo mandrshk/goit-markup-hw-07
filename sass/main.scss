@@ -1,0 +1,16 @@
+//index
+
+@import "base/normalize";
+@import "utils/vars";
+@import "base/styles-header";
+@import "components/modal";
+@import "components/images";
+@import "components/members";
+@import "components/clients";
+
+
+//portfolio
+
+@import "components/nav-page";
+@import "components/project-cards";
+@import "base/footer";

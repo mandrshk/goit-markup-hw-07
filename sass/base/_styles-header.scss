@@ -1,0 +1,133 @@
+.header-menu {
+    border-bottom: 1px solid #ececec;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+.logospan {
+    color: var(--accent-color);
+}
+
+.logo-webstudio {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.sitenav {
+    display: flex;
+}
+
+.sitenav .navigation:not(:last-child) {
+    margin-right: 50px;
+}
+
+.sitenav .nav-menu {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.nav-menu {
+    font-size: 14px;
+    line-height: 1.1;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-menu:hover,
+.nav-menu:focus {
+    color: var(--accent-color);
+}
+
+.auth-nav {
+    display: flex;
+    margin-left: auto;
+}
+
+.auth-nav .item .nav-menu {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.auth-nav .item+.item {
+    margin-left: 50px;
+}
+
+.sitenav {
+    margin-left: 93px;
+}
+
+.opened-page {
+    position: relative;
+}
+
+.opened-page::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #2196f3;
+    border-radius: 2px;
+}
+
+.contactslinks .item .nav-menu {
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.nav-menu .contacts-icon {
+    fill: var(--secondary-color);
+    margin-right: 10px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.item .nav-menu:hover .contacts-icon,
+.item .nav-menu:focus .contacts-icon {
+    fill: var(--accent-color);
+}
+
+.maintext {
+    background: #2f303a;
+    padding: 200px 0;
+    text-align: center;
+    background-image: linear-gradient(to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../images/img-effective.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
+}
+
+.header {
+    width: 696px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+    text-align: center;
+    margin: 0;
+    margin-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
