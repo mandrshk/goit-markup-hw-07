@@ -1,16 +1,39 @@
-.button {
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.9;
-    letter-spacing: 0.06em;
-    color: var(--primary-white-color);
-    background: var(--accent-color);
+.maintext {
+    background: #2f303a;
+    padding: 200px 0;
+    text-align: center;
+    background-image: linear-gradient(to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../images/img-effective.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
 }
 
-.orderservice {
+.maintext__header-text {
+    width: 696px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+    text-align: center;
+    margin: 0;
+    margin-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.maintext__button {
     font-family: 'Roboto';
     font-style: normal;
+    cursor: pointer;
+    color: var(--primary-white-color);
     background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -74,12 +97,13 @@
 
     fill: black;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+        &:focus {
+            fill: var(--accent-color);
+        }
 }
 
-.close-icon:hover,
-.close-icon:focus {
-    fill: var(--accent-color);
-}
+
 
 .fill-your-data {
     display: block;
@@ -116,11 +140,12 @@
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     outline: transparent;
-}
-
-.modal-input:focus {
+    &:focus {
     border: 1px solid var(--accent-color);
 }
+}
+
+
 
 .modal-input:focus+.modal-input-icon {
     fill: var(--accent-color);
@@ -156,6 +181,12 @@
 
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+
+    &:focus {
+            color: #212121;
+            outline: transparent;
+            border: 1px solid var(--accent-color);
+        }
 }
 
 .checkbox {
@@ -165,10 +196,7 @@
     position: absolute;
 }
 
-.give-feedback:focus {
-    outline: transparent;
-    border: 1px solid var(--accent-color);
-}
+
 
 .agree-contract {
     display: flex;
@@ -194,6 +222,7 @@
 
     margin-right: 8px;
 }
+
 .checkbox:checked+.icon-checkbox {
     background-color: var(--accent-color);
     background-image: url(../images/icon-check.svg);
@@ -233,3 +262,4 @@
 
     color: var(--primary-white-color);
 }
+

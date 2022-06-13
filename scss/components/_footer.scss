@@ -1,62 +1,66 @@
-.footer-info {
+.footer {
     background: #2f303a;
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
-.footer-container {
+.footer__container {
     display: flex;
     flex-grow: 1;
     align-items: baseline;
-}
-
-.connect-us {
-    color: var(--secondary-color);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.connect-us:hover,
-.connect-us:focus {
-    color: var(--primary-white-color);
-}
-
-.email-ws,
-.phonenum-ws {
-    font-size: 14px;
-    line-height: 1.1;
-    color: var(--secondary-color);
-    letter-spacing: 0.02em;
-}
-
-.contacts-footer {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.6);
 }
 
-.our-address {
+.footer__logo-webstudio {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.footer__logo-ws {
     color: var(--primary-white-color);
 }
 
-.footer-list .contacts {
-    margin-top: 9px;
+.footer__logospan {
+    color: var(--accent-color);
 }
 
-.address-footer {
+.footer__address {
     margin-top: 20px;
     font-style: normal;
 }
 
-.footer-info .logo-ws {
+.footer-list__connect-us:hover,
+.footer-list__connect-us:focus {
     color: var(--primary-white-color);
+}
+
+.footer-list__contacts-footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+    color: var(--secondary-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-list__our-address {
+    color: var(--primary-white-color);
+}
+
+.footer-list__contacts {
+    margin-top: 9px;
 }
 
 .follow-us {
     margin-left: 70px;
 }
 
-.followus {
+.follow-us__text {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -67,21 +71,23 @@
     margin-bottom: 20px;
 }
 
-.follow-us .socials-list {
+.follow-us__social-list {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.follow-us .socials-item {
+.follow-us__social-item {
     margin-right: 10px;
+
+    &:last-child {
+            margin-right: 0;
+        }
 }
 
-.follow-us .socials-item:last-child {
-    margin-right: 0;
-}
 
-.follow-us .socials-link {
+
+.follow-us__social-link {
     width: 44px;
     height: 44px;
     background-color: rgba(255, 255, 255, 0.1);
@@ -91,23 +97,26 @@
     justify-content: center;
     transition-duration: 250ms;
     transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+        &:focus {
+            background: var(--accent-color);
+        }
 }
 
-.follow-us .socials-icon {
+.follow-us__social-icon {
     fill: var(--primary-white-color);
     transition-duration: 250ms;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.follow-us .socials-link:hover,
-.follow-us .socials-link:focus {
-    background: var(--accent-color);
-}
 
-.follow-us .socials-link:hover .socials-icon,
-.follow-us .socials-link:focus .socials-icon {
+
+.follow-us__social-link:hover .follow-us__social-icon,
+.follow-us__social-link:focus .follow-us__social-icon {
     fill: var(--primary-white-color);
 }
+
 
 .footer-form {
     min-width: 570px;
@@ -115,7 +124,18 @@
     margin-left: 93px;
 }
 
-.type-email {
+.footer-form__label {
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--primary-white-color);
+}
+
+.footer-form__email {
     margin-top: 20px;
     margin-right: 12px;
     width: 358px;
@@ -128,18 +148,7 @@
     background: #2f303a;
 }
 
-.follow-label {
-    display: block;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-
-    color: var(--primary-white-color);
-}
-
-.follow-button {
+.footer-form__follow-button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -153,7 +162,7 @@
     text-align: left;
 }
 
-.following-text {
+.footer-form__text {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -162,7 +171,7 @@
     color: var(--primary-white-color);
 }
 
-.send-icon {
+.footer-form__send-icon {
     fill: var(--primary-white-color);
     margin-left: 10px;
 }

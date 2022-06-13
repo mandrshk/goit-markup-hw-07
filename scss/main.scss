@@ -1,0 +1,36 @@
+// utils
+
+@import './utils/vars';
+@import './utils/normalize';
+@import './utils/visually-hidden';
+
+
+// base styles
+
+@import './base/reset';
+@import './base/common';
+
+
+// components
+
+@import 'components/header';
+@import './components/modal';
+@import './components/advantages';
+@import './components/whatwedo';
+@import './components/members';
+@import './components/clients';
+
+
+//components page portfolio
+
+@import './components/buttons-menu';
+@import './components/projects';
+
+
+//footer
+
+@import './components/footer';
+@import './components/footer-form';
+
+
+
