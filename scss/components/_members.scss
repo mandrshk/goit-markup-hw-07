@@ -1,8 +1,8 @@
-.ourmembers {
+.section--other-background {
     background-color: #f5f4fa;
 }
 
-.ourmembers__header {
+.section__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
@@ -10,7 +10,7 @@
     margin-bottom: 50px;
 }
 
-.ourmembers__list {
+.ourmembers {
     display: flex;
 }
 
@@ -30,19 +30,19 @@
 
 
 
-.about-member {
+.ourmembers__box {
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.about-member__name {
+.ourmembers__title {
     font-size: 16px;
     line-height: 1.19;
     margin-bottom: 10px;
     font-weight: 500;
 }
 
-.about-member__profession {
+.ourmembers__text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;

@@ -1,4 +1,4 @@
-.maintext {
+.hero {
     background: #2f303a;
     padding: 200px 0;
     text-align: center;
@@ -14,7 +14,7 @@
     max-width: 1600px;
 }
 
-.maintext__header-text {
+.hero__title {
     width: 696px;
     font-weight: 900;
     font-size: 44px;
@@ -29,7 +29,7 @@
     margin-left: auto;
 }
 
-.maintext__button {
+.hero__button {
     font-family: 'Roboto';
     font-style: normal;
     cursor: pointer;

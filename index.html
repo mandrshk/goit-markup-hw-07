@@ -28,31 +28,31 @@
         <nav class="navbar">
           <a
             href="#"
-            class="links logo-ws navbar__logo-webstudio"
+            class=" navbar__logo-webstudio"
           >
             <span class="navbar__logospan">Web</span
             >Studio</a
           >
 
           <ul class="sitenav">
-            <li class="sitenav__navigation">
+            <li class="sitenav__item">
               <a
                 href="./index.html"
-                class="sitenav__nav-menu sitenav__opened-page links "
+                class="sitenav__link sitenav__link--opened  "
                 >Студия</a
               >
             </li>
-            <li class="sitenav__navigation">
+            <li class="sitenav__item">
               <a
                 href="./portfolio.html"
-                class="sitenav__nav-menu links "
+                class="sitenav__link  "
                 >Портфолио</a
               >
             </li>
-            <li class="sitenav__navigation">
+            <li class="sitenav__item">
               <a
                 href="#"
-                class="sitenav__nav-menu links"
+                class="sitenav__link "
                 >Контакты</a
               >
             </li>
@@ -62,11 +62,11 @@
           <li class="auth-nav__item">
             <a
               href="mailto:info@devstudio.com"
-              class="auth-nav__nav-menu auth-nav__contacts-ws links "
+              class="auth-nav__link  "
               aria-label="Mail Icon"
             >
               <svg
-                class="auth-nav__contacts-icon"
+                class="auth-nav__icon"
                 width="16"
                 height="12"
               >
@@ -80,11 +80,11 @@
           <li class="auth-nav__item">
             <a
               href="tel:+380961111111"
-              class="links auth-nav__nav-menu auth-nav__contacts-ws"
+              class=" auth-nav__link "
               aria-label="Phone Icon"
             >
               <svg
-                class="auth-nav__contacts-icon"
+                class="auth-nav__icon"
                 width="10"
                 height="16"
               >
@@ -100,14 +100,14 @@
     </header>
 
     <main>
-      <section class="maintext">
+      <section class="hero">
         <div class="container">
-          <h1 class="maintext__header-text">
+          <h1 class="hero__title">
             Эффективные решения для вашего бизнеса
           </h1>
           <button
             data-modal-open
-            class="maintext__button"
+            class="hero__button"
             type="button"
           >
             Заказать услугу
@@ -250,10 +250,10 @@
                   ></use>
                 </svg>
               </div>
-              <h3 class="feature-list__our-advantages">
+              <h3 class="feature-list__title">
                 Внимание к деталям
               </h3>
-              <p class="feature-list__description-ofadv">
+              <p class="feature-list__description">
                 Идейные соображения, а также
                 начало повседневной работы по
                 формированию позиции.
@@ -271,10 +271,10 @@
                   ></use>
                 </svg>
               </div>
-              <h3 class="feature-list__our-advantages">
+              <h3 class="feature-list__title">
                 Пунктуальность
               </h3>
-              <p class="feature-list__description-ofadv">
+              <p class="feature-list__description">
                 Задача организации, в особенности
                 же рамки и место обучения кадров
                 влечет за собой.
@@ -292,10 +292,10 @@
                   ></use>
                 </svg>
               </div>
-              <h3 class="feature-list__our-advantages">
+              <h3 class="feature-list__title">
                 Планирование
               </h3>
-              <p class="feature-list__description-ofadv">
+              <p class="feature-list__description">
                 Равным образом консультация с
                 широким активом в значительной
                 степени обуславливает.
@@ -313,10 +313,10 @@
                   ></use>
                 </svg>
               </div>
-              <h3 class="feature-list__our-advantages">
+              <h3 class="feature-list__title">
                 Современные технологии
               </h3>
-              <p class="feature-list__description-ofadv">
+              <p class="feature-list__description">
                 Значимость этих проблем настолько
                 очевидна, что реализация плановых
                 заданий.
@@ -326,19 +326,19 @@
         </div>
       </section>
 
-      <section class="section what-wedo">
+      <section class="section section--nopadding-top">
         <div class="container">
-          <h2 class="what-wedo__header">
+          <h2 class="section__title">
             Чем мы занимаемся
           </h2>
-          <ul class="what-wedo__list">
+          <ul class="what-wedo">
             <li class="what-wedo__item">
               <img
                 src="./images/img1.jpg"
                 alt="верстка"
                 width="370px"
               />
-              <p class="what-wedo__name">
+              <p class="what-wedo__text">
                 Десктопные приложения
               </p>
             </li>
@@ -348,7 +348,7 @@
                 alt="дизайн"
                 width="370px"
               />
-              <p class="what-wedo__name">
+              <p class="what-wedo__text">
                 Мобильные приложения
               </p>
             </li>
@@ -358,7 +358,7 @@
                 alt="оформление"
                 width="370px"
               />
-              <p class="what-wedo__name">
+              <p class="what-wedo__text">
                 Дизайнерские приложения
               </p>
             </li>
@@ -366,21 +366,21 @@
         </div>
       </section>
 
-      <section class="section ourmembers">
+      <section class="section section--other-background">
         <div class="container">
-          <h2 class="ourmembers__header">Наша команда</h2>
-          <ul class="ourmembers__list">
+          <h2 class="section__title">Наша команда</h2>
+          <ul class="ourmembers">
             <li class="ourmembers__item">
               <img
                 src="./images/m1.jpg"
                 alt="Product Designer"
                 width="270px"
               />
-              <div class="about-member">
-                <h3 class="about-member__name">
+              <div class="ourmembers__box">
+                <h3 class="ourmembers__title">
                   Игорь Демьяненко
                 </h3>
-                <p class="about-member__profession">
+                <p class="ourmembers__text">
                   Product Designer
                 </p>
 
@@ -388,7 +388,7 @@
                   <li class="social-list__item">
                     <a
                       href=""
-                      class="social-list__link links"
+                      class="social-list__link "
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Instagram"
@@ -407,7 +407,7 @@
                   <li class="social-list__item">
                     <a
                       href=""
-                      class="social-list__link links"
+                      class="social-list__link "
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Twitter"
@@ -426,7 +426,7 @@
                   <li class="social-list__item">
                     <a
                       href=""
-                      class="social-list__link links"
+                      class="social-list__link "
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Facebook"
@@ -445,7 +445,7 @@
                   <li class="social-list__item">
                     <a
                       href=""
-                      class="social-list__link links"
+                      class="social-list__link "
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Linkedin"
@@ -471,11 +471,11 @@
                 alt="Frontend Developer"
                 width="270px"
               />
-              <div class="about-member">
-                <h3 class="about-member__name">
+              <div class="ourmembers__box">
+                <h3 class="ourmembers__title">
                   Ольга Репина
                 </h3>
-                <p class="about-member__profession">
+                <p class="ourmembers__text">
                   Frontend Developer
                 </p>
 
@@ -483,7 +483,7 @@
                   <li class="social-list__item">
                     <a
                       href=""
-                      class="social-list__link links"
+                      class="social-list__link "
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Instagram"
@@ -502,7 +502,7 @@
                   <li class="social-list__item">
                     <a
                       href=""
-                      class="social-list__link links"
+                      class="social-list__link "
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Twitter"
@@ -521,7 +521,7 @@
                   <li class="social-list__item">
                     <a
                       href=""
-                      class="social-list__link links"
+                      class="social-list__link "
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Facebook"
@@ -540,7 +540,7 @@
                   <li class="social-list__item">
                     <a
                       href=""
-                      class="social-list__link links"
+                      class="social-list__link "
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Linkedin"
@@ -566,11 +566,11 @@
                 alt="Marketing"
                 width="270px"
               />
-              <div class="about-member">
-                <h3 class="about-member__name">
+              <div class="ourmembers__box">
+                <h3 class="ourmembers__title">
                   Николай Тарасов
                 </h3>
-                <p class="about-member__profession">
+                <p class="ourmembers__text">
                   Marketing
                 </p>
 
@@ -578,7 +578,7 @@
                   <li class="social-list__item">
                     <a
                       href=""
-                      class="social-list__link links"
+                      class="social-list__link "
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Instagram"
@@ -597,7 +597,7 @@
                   <li class="social-list__item">
                     <a
                       href=""
-                      class="social-list__link links"
+                      class="social-list__link "
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Twitter"
@@ -616,7 +616,7 @@
                   <li class="social-list__item">
                     <a
                       href=""
-                      class="social-list__link links"
+                      class="social-list__link "
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Facebook"
@@ -635,7 +635,7 @@
                   <li class="social-list__item">
                     <a
                       href=""
-                      class="social-list__link links"
+                      class="social-list__link "
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Linkedin"
@@ -661,11 +661,11 @@
                 alt="UI Designer"
                 width="270px"
               />
-              <div class="about-member">
-                <h3 class="about-member__name">
+              <div class="ourmembers__box">
+                <h3 class="ourmembers__title">
                   Михаил Ермаков
                 </h3>
-                <p class="about-member__profession">
+                <p class="ourmembers__text">
                   UI Designer
                 </p>
 
@@ -673,7 +673,7 @@
                   <li class="social-list__item">
                     <a
                       href=""
-                      class="social-list__link links"
+                      class="social-list__link "
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Instagram"
@@ -692,7 +692,7 @@
                   <li class="social-list__item">
                     <a
                       href=""
-                      class="social-list__link links"
+                      class="social-list__link "
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Twitter"
@@ -711,7 +711,7 @@
                   <li class="social-list__item">
                     <a
                       href=""
-                      class="social-list__link links"
+                      class="social-list__link "
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Facebook"
@@ -730,7 +730,7 @@
                   <li class="social-list__item">
                     <a
                       href=""
-                      class="social-list__link links"
+                      class="social-list__link "
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Linkedin"
@@ -753,13 +753,13 @@
         </div>
       </section>
 
-      <section class="section clients">
+      <section class="section">
         <div class="container">
-          <h2 class="clients__header">
+          <h2 class="section__title">
             Постоянные клиенты
           </h2>
 
-          <ul class="clients__list">
+          <ul class="clients">
             <li class="clients__item">
               <a href="" class="clients__link">
                 <svg
@@ -848,7 +848,7 @@
         <div class="footer__contact-info">
           <a
             href="#"
-            class="links footer__logo-ws footer__logo-webstudio"
+            class=" footer__logo-ws footer__logo-webstudio"
             ><span class="footer__logospan">Web</span
             >Studio</a
           >
@@ -859,7 +859,7 @@
                   href="https://goo.gl/maps/YKN6UugqQtC8uNZw6"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="links footer-list__connect-us footer-list__contacts-footer footer-list__our-address"
+                  class=" footer-list__connect-us footer-list__contacts-footer footer-list__our-address"
                 >
                   г. Киев, пр-т Леси Украинки,
                   26</a
@@ -868,14 +868,14 @@
               <li class="footer-list__contacts">
                 <a
                   href="mailto:info@example.com"
-                  class="links footer-list__connect-us footer-list__contacts-footer"
+                  class=" footer-list__connect-us footer-list__contacts-footer"
                   >info@example.com</a
                 >
               </li>
               <li class="footer-list__contacts">
                 <a
                   href="tel:+380961111111"
-                  class="links footer-list__connect-us footer-list__contacts-footer"
+                  class=" footer-list__connect-us footer-list__contacts-footer"
                   >+38 096 111 11 11</a
                 >
               </li>
@@ -889,7 +889,7 @@
             <li class="follow-us__social-item">
               <a
                 href=""
-                class="follow-us__social-link links"
+                class="follow-us__social-link "
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
@@ -908,7 +908,7 @@
             <li class="follow-us__social-item">
               <a
                 href=""
-                class="follow-us__social-link links"
+                class="follow-us__social-link "
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Twitter"
@@ -927,7 +927,7 @@
             <li class="follow-us__social-item">
               <a
                 href=""
-                class="follow-us__social-link links"
+                class="follow-us__social-link "
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
@@ -946,7 +946,7 @@
             <li class="follow-us__social-item">
               <a
                 href=""
-                class="follow-us__social-link links"
+                class="follow-us__social-link "
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Linkedin"

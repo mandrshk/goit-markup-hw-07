@@ -1,18 +1,20 @@
 
-.what-wedo {
+.section--nopadding-top {
     padding-top: 0px;
-        &__header {
+
+        
+}
+
+.section__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
     text-align: center;
     margin-bottom: 50px;
 }
-}
 
 
-
-.what-wedo__list {
+.what-wedo {
     display: flex;
 }
 
@@ -26,7 +28,7 @@
 
 
 
-.what-wedo__name {
+.what-wedo__text {
     position: absolute;
     bottom: 0;
     right: 0;
